@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amin Ceiling Machang | Siling Plaster Dari RM5.50 Sekaki Persegi</title>
+<meta name="description" content="Pemasangan & pembaikan siling plaster di Machang, Kelantan. Harga dari RM5.50/sqft. L-box, downlight, lampu LED. Dapatkan sebut harga percuma hari ini!">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F6F1E7;
+    --cream2:#EFE7D6;
+    --ink:#221E18;
+    --char:#17140F;
+    --brass:#A9803F;
+    --brass-l:#C9A05F;
+    --red:#C6262A;
+    --line:#DCD1B8;
+    --white:#FFFCF6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Work Sans', sans-serif;
+    line-height:1.5;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,.display{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    letter-spacing:-0.01em;
+    color:var(--char);
+  }
+  a{color:inherit; text-decoration:none;}
+  img,svg{display:block; max-width:100%;}
+  .wrap{max-width:1120px; margin:0 auto; padding:0 24px;}
+  .eyebrow{
+    font-size:0.72rem;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--brass);
+    font-weight:600;
+    display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{content:""; width:22px; height:1px; background:var(--brass);}
+
+  /* ---------- HEADER ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(246,241,231,0.94);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .navbar{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:10px 24px; max-width:1120px; margin:0 auto;
+  }
+  .brand{display:flex; align-items:center;}
+  .brand img{height:44px; width:auto;}
+  nav.links{display:flex; gap:28px; font-size:0.9rem; font-weight:500;}
+  nav.links a:hover{color:var(--brass);}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    background:var(--char); color:var(--white);
+    padding:11px 22px; border-radius:2px;
+    font-weight:600; font-size:0.88rem;
+    border:1px solid var(--char);
+    transition:all .25s ease;
+    white-space:nowrap;
+  }
+  .btn:hover{background:var(--brass); border-color:var(--brass);}
+  .btn.red{background:var(--red); border-color:var(--red);}
+  .btn.red:hover{background:#9e1e21; border-color:#9e1e21;}
+  .btn.ghost{background:transparent; color:var(--char); border:1px solid var(--char);}
+  .btn.ghost:hover{background:var(--char); color:var(--white);}
+  .header-cta{display:flex; align-items:center; gap:16px;}
+  .header-phone{font-size:0.88rem; font-weight:600; display:none;}
+  @media(min-width:860px){.header-phone{display:block;}}
+  @media(max-width:860px){nav.links{display:none;}}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;
+    padding:70px 0 60px;
+    overflow:hidden;
+  }
+  .hero .wrap{
+    display:grid; grid-template-columns:1.05fr 0.95fr; gap:56px; align-items:center;
+  }
+  @media(max-width:900px){.hero .wrap{grid-template-columns:1fr;}}
+  .hero h1{font-size:clamp(2.1rem, 4.6vw, 3.3rem); line-height:1.08; margin:16px 0 18px;}
+  .hero h1 em{font-style:italic; color:var(--brass);}
+  .hero p.lead{font-size:1.05rem; color:#4A443B; max-width:46ch; margin-bottom:28px;}
+  .hero-ctas{display:flex; gap:14px; flex-wrap:wrap; margin-bottom:30px;}
+  .trust-row{display:flex; gap:26px; flex-wrap:wrap; font-size:0.82rem; color:#5b5346;}
+  .trust-row strong{display:block; font-family:'Fraunces',serif; font-size:1.35rem; color:var(--char); font-weight:600;}
+
+  .hero-photo{
+    position:relative;
+    border-radius:4px; overflow:hidden;
+    border:1px solid var(--line);
+    aspect-ratio:4/5;
+  }
+  .hero-photo img{width:100%; height:100%; object-fit:cover;}
+  .hero-photo .tag{
+    position:absolute; left:16px; bottom:16px;
+    background:rgba(23,20,15,0.82); color:var(--white);
+    font-size:0.74rem; padding:8px 14px; border-radius:2px;
+    letter-spacing:0.04em;
+  }
+
+  /* ---------- SECTION GENERIC ---------- */
+  section{padding:74px 0;}
+  .section-head{max-width:640px; margin-bottom:44px;}
+  .section-head h2{font-size:clamp(1.6rem,3vw,2.2rem); margin:14px 0 12px;}
+  .section-head p{color:#524B3F; font-size:1rem;}
+
+  /* value props */
+  .value-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line);}
+  @media(max-width:760px){.value-grid{grid-template-columns:1fr;}}
+  .value-card{background:var(--white); padding:32px 28px;}
+  .value-num{font-family:'Fraunces',serif; font-size:0.8rem; color:var(--brass); font-weight:600; margin-bottom:14px;}
+  .value-card h3{font-size:1.15rem; margin-bottom:8px;}
+  .value-card p{font-size:0.9rem; color:#5b5346;}
+
+  /* services */
+  .svc-band{background:var(--char); color:var(--cream);}
+  .svc-band .section-head p{color:#C9C0AE;}
+  .svc-band .eyebrow{color:var(--brass-l);}
+  .svc-band .eyebrow::before{background:var(--brass-l);}
+  .svc-band .section-head h2{color:var(--white);}
+  .svc-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:18px;}
+  @media(max-width:860px){.svc-grid{grid-template-columns:1fr;}}
+  .svc-card{
+    background:#1F1C15; border:1px solid #33301F;
+    padding:28px; border-radius:3px;
+    transition:border-color .25s ease, transform .25s ease;
+  }
+  .svc-card:hover{border-color:var(--brass); transform:translateY(-3px);}
+  .svc-icon{width:38px;height:38px; margin-bottom:18px;}
+  .svc-card h3{color:var(--white); font-size:1.1rem; margin-bottom:8px;}
+  .svc-card p.desc{color:#B7AF9C; font-size:0.88rem; margin-bottom:18px;}
+  .price-tag{border-top:1px solid #33301F; padding-top:14px; display:flex; justify-content:space-between; align-items:baseline;}
+  .price-tag .lbl{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:#8f8873;}
+  .price-tag .amt{font-family:'Fraunces',serif; font-size:1.3rem; color:var(--brass-l); font-weight:600;}
+
+  /* gallery */
+  .gal-grid{
+    columns:4; column-gap:14px;
+  }
+  @media(max-width:960px){.gal-grid{columns:3;}}
+  @media(max-width:640px){.gal-grid{columns:2;}}
+  .gal-item{
+    break-inside:avoid; margin-bottom:14px;
+    border-radius:3px; overflow:hidden; border:1px solid var(--line);
+    position:relative;
+  }
+  .gal-item img{width:100%; display:block; transition:transform .4s ease;}
+  .gal-item:hover img{transform:scale(1.05);}
+
+  /* comparison */
+  .compare-wrap{display:grid; grid-template-columns:1fr 1fr; gap:0; border:1px solid var(--line); border-radius:4px; overflow:hidden;}
+  @media(max-width:760px){.compare-wrap{grid-template-columns:1fr;}}
+  .compare-col{padding:32px 30px;}
+  .compare-col.us{background:var(--char); color:var(--white);}
+  .compare-col.them{background:var(--white);}
+  .compare-col h4{font-family:'Fraunces',serif; font-size:1.15rem; margin-bottom:20px; font-weight:600;}
+  .compare-col.us h4{color:var(--brass-l);}
+  .crow{display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px solid rgba(0,0,0,0.08); font-size:0.9rem;}
+  .compare-col.us .crow{border-bottom:1px solid rgba(255,255,255,0.1);}
+  .crow .v{font-weight:600;}
+
+  /* steps */
+  .steps{display:grid; grid-template-columns:repeat(3,1fr); gap:34px; position:relative;}
+  @media(max-width:760px){.steps{grid-template-columns:1fr;}}
+  .step{position:relative; padding-top:8px;}
+  .step .snum{font-family:'Fraunces',serif; font-size:2.6rem; color:var(--line); font-weight:700; line-height:1;}
+  .step h3{margin:10px 0 8px; font-size:1.1rem;}
+  .step p{font-size:0.9rem; color:#5b5346;}
+
+  /* testimonials */
+  .testi-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px;}
+  @media(max-width:860px){.testi-grid{grid-template-columns:1fr;}}
+  .testi-card{background:var(--white); border:1px solid var(--line); padding:26px; border-radius:4px;}
+  .stars{color:var(--brass); font-size:0.85rem; margin-bottom:14px; letter-spacing:2px;}
+  .testi-card p{font-size:0.92rem; color:#40392E; margin-bottom:18px; font-style:italic;}
+  .testi-who{font-size:0.82rem; font-weight:600; color:var(--char); display:flex; justify-content:space-between;}
+  .testi-who span.loc{font-weight:400; color:#8f8873;}
+
+  /* trust badges (from poster) */
+  .badge-strip{display:flex; gap:0; border:1px solid var(--line); border-radius:4px; overflow:hidden;}
+  .badge{flex:1; padding:24px 18px; text-align:center; border-right:1px solid var(--line); background:var(--white);}
+  .badge:last-child{border-right:none;}
+  .badge .ico{font-family:'Fraunces',serif; font-size:1.6rem; color:var(--brass); margin-bottom:8px;}
+  .badge p{font-size:0.82rem; font-weight:600; color:var(--char);}
+  @media(max-width:760px){.badge-strip{flex-wrap:wrap;} .badge{flex:1 1 50%; border-bottom:1px solid var(--line);}}
+
+  /* CTA band */
+  .cta-band{background:linear-gradient(135deg,#221E18,#17140F); color:var(--white); text-align:center; border-radius:6px; padding:64px 28px; margin:0 24px;}
+  .cta-band h2{color:var(--white); font-size:clamp(1.6rem,3.4vw,2.3rem); margin-bottom:14px;}
+  .cta-band p{color:#C9C0AE; max-width:44ch; margin:0 auto 30px;}
+  .cta-actions{display:flex; gap:14px; justify-content:center; flex-wrap:wrap;}
+
+  /* footer */
+  footer{border-top:1px solid var(--line); padding:50px 0 30px; margin-top:40px;}
+  .foot-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:40px; margin-bottom:40px;}
+  @media(max-width:760px){.foot-grid{grid-template-columns:1fr; gap:28px;}}
+  .foot-logo{height:38px; margin-bottom:14px;}
+  .foot-grid h5{font-size:0.75rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--brass); margin-bottom:14px;}
+  .foot-grid p, .foot-grid a{font-size:0.88rem; color:#5b5346; display:block; margin-bottom:8px;}
+  .foot-bottom{border-top:1px solid var(--line); padding-top:22px; display:flex; justify-content:space-between; font-size:0.78rem; color:#8f8873; flex-wrap:wrap; gap:10px;}
+
+  .reveal{opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in{opacity:1; transform:translateY(0);}
+
+  .wa-float{
+    position:fixed; bottom:22px; right:22px; z-index:60;
+    background:#25D366; color:#fff; width:56px; height:56px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 6px 18px rgba(0,0,0,0.25);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <a href="#" class="brand"><img src="assets/logo.jpg" alt="Amin Ceiling Machang"></a>
+    <nav class="links">
+      <a href="#servis">Servis</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#harga">Harga</a>
+      <a href="#proses">Proses</a>
+      <a href="#testimoni">Testimoni</a>
+    </nav>
+    <div class="header-cta">
+      <span class="header-phone">018-900 5222</span>
+      <a href="https://wa.me/60189005222" class="btn red">WhatsApp Sekarang</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Servis Siling Plaster Machang</div>
+      <h1>Siling Plaster <em>No. 1</em> di Machang & Sekitar Kelantan</h1>
+      <p class="lead">Siling plaster, siling PVC, wainscot & renovasi — Amin Ceiling Machang pakar dalam rekabentuk dan pemasangan dengan hasil kemas berkualiti. Kepuasan anda, keutamaan kami.</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/60189005222" class="btn red">WhatsApp Now</a>
+        <a href="tel:0189005222" class="btn ghost">018-900 5222</a>
+      </div>
+      <div class="trust-row">
+        <div><strong>20 Tahun</strong>Pengalaman</div>
+        <div><strong>100%</strong>Kualiti Dijamin</div>
+        <div><strong>Free</strong>Konsultasi & Ukuran</div>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="assets/g6.jpg" alt="Siling plaster ruang tamu Amin Ceiling Machang">
+      <span class="tag">Projek Amin Ceiling Machang</span>
+    </div>
+  </div>
+</section>
+
+<section id="servis">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Kenapa Amin Ceiling</div>
+      <h2>Kepakaran yang boleh anda percaya</h2>
+      <p>Setiap kerja siling kami dibuat kemas, tepat waktu, dan mengikut belanjawan yang anda tetapkan.</p>
+    </div>
+    <div class="badge-strip reveal">
+      <div class="badge"><div class="ico">✓</div><p>Ketahanan Terjamin</p></div>
+      <div class="badge"><div class="ico">✓</div><p>Kerja Kemas & Teliti</p></div>
+      <div class="badge"><div class="ico">✓</div><p>Siap Mengikut Masa</p></div>
+      <div class="badge"><div class="ico">✓</div><p>Perkhidmatan Mesra</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="value-grid reveal">
+      <div class="value-card">
+        <div class="value-num">01</div>
+        <h3>Harga Berpatutan</h3>
+        <p>Siling plaster berkualiti tinggi pada harga yang sesuai dengan bajet anda — tiada kos tersembunyi.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">02</div>
+        <h3>Reka Bentuk Custom</h3>
+        <p>Kami sediakan reka bentuk L-box dan siling moden mengikut citarasa dan keperluan ruang anda.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">03</div>
+        <h3>Pemasangan Profesional</h3>
+        <p>Kerja kemas dan pantas oleh pasukan berpengalaman 20 tahun dalam industri.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="svc-band" id="harga">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Pelbagai Pilihan</div>
+      <h2>Pilihan Siling Plaster Yang Lengkap</h2>
+      <p>Pilih dari siling plaster, siling PVC, wainscot, hingga renovasi penuh untuk hidupkan visi ruang anda.</p>
+    </div>
+    <div class="svc-grid reveal">
+      <div class="svc-card">
+        <svg class="svc-icon" viewBox="0 0 40 40" fill="none"><rect x="6" y="10" width="28" height="20" rx="1" stroke="#C9A05F" stroke-width="1.6"/><path d="M6 16 H34" stroke="#C9A05F" stroke-width="1.2"/></svg>
+        <h3>Siling Plaster</h3>
+        <p class="desc">Kemas, moden, dan elegan yang berpatutan untuk sebarang ruang di rumah anda.</p>
+        <div class="price-tag"><span class="lbl">Harga Dari</span><span class="amt">RM5.50 / kaki²</span></div>
+      </div>
+      <div class="svc-card">
+        <svg class="svc-icon" viewBox="0 0 40 40" fill="none"><path d="M8 30 V16 L18 10 H34 V30" stroke="#C9A05F" stroke-width="1.6" fill="none"/></svg>
+        <h3>Siling PVC & Wainscot</h3>
+        <p class="desc">Tambah gaya dan kedalaman dengan reka bentuk L-Box dan panel wainscot pilihan.</p>
+        <div class="price-tag"><span class="lbl">Harga Dari</span><span class="amt">RM25 / kaki lari</span></div>
+      </div>
+      <div class="svc-card">
+        <svg class="svc-icon" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="18" r="8" stroke="#C9A05F" stroke-width="1.6"/><path d="M20 28 V34 M14 34 H26" stroke="#C9A05F" stroke-width="1.4"/></svg>
+        <h3>Lampu & Renovasi</h3>
+        <p class="desc">Ceriakan ruang dengan pemasangan lampu LED dan renovasi penuh oleh pasukan profesional.</p>
+        <div class="price-tag"><span class="lbl">Harga Dari</span><span class="amt">RM80</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="galeri">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Hasil Kerja Kami</div>
+      <h2>Galeri Projek Amin Ceiling Machang</h2>
+      <p>Sebahagian daripada hasil kerja kami — moden, kemas, dan mengikut citarasa pelanggan.</p>
+    </div>
+    <div class="gal-grid reveal">
+      <div class="gal-item"><img src="assets/g6.jpg" alt="Siling plaster ruang tamu dengan chandelier"></div>
+      <div class="gal-item"><img src="assets/g4.jpg" alt="Siling plaster kayu diamond design"></div>
+      <div class="gal-item"><img src="assets/g9.jpg" alt="Pemasangan siling plaster lorong"></div>
+      <div class="gal-item"><img src="assets/g1.jpg" alt="Siling plaster diamond dengan chandelier"></div>
+      <div class="gal-item"><img src="assets/g3.jpg" alt="Siling plaster lorong dengan chandelier"></div>
+      <div class="gal-item"><img src="assets/g8.jpg" alt="Siling plaster kayu dengan kipas"></div>
+      <div class="gal-item"><img src="assets/g5.jpg" alt="Siling plaster dengan sconce dinding"></div>
+      <div class="gal-item"><img src="assets/g10.jpg" alt="Siling plaster melengkung ruang tamu"></div>
+      <div class="gal-item"><img src="assets/g7.webp" alt="Siling plaster segi tiga dengan kipas"></div>
+      <div class="gal-item"><img src="assets/g2.jpg" alt="Ruang tamu dengan siling plaster moden"></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Perbandingan Harga</div>
+      <h2>Lagi Murah. Bandingkan Sendiri!</h2>
+      <p>Servis siling plaster yang mudah dan pantas bersama kami. Harga kami lebih rendah dari harga pasaran.</p>
+    </div>
+    <div class="compare-wrap reveal">
+      <div class="compare-col us">
+        <h4>Amin Ceiling Machang</h4>
+        <div class="crow"><span>Harga</span><span class="v">RM5.50 / kaki²</span></div>
+        <div class="crow"><span>Siap Kerja</span><span class="v">4 Hari</span></div>
+        <div class="crow"><span>Mula Kerja</span><span class="v">Esok</span></div>
+        <div class="crow"><span>Mutu Kerja</span><span class="v">★★★★★</span></div>
+        <div class="crow"><span>Waranti</span><span class="v">Terjamin</span></div>
+      </div>
+      <div class="compare-col them">
+        <h4>Harga Pasaran</h4>
+        <div class="crow"><span>Harga</span><span class="v">RM7.20 / kaki²</span></div>
+        <div class="crow"><span>Siap Kerja</span><span class="v">2 Minggu</span></div>
+        <div class="crow"><span>Mula Kerja</span><span class="v">2-3 Minggu</span></div>
+        <div class="crow"><span>Mutu Kerja</span><span class="v">★★★</span></div>
+        <div class="crow"><span>Waranti</span><span class="v">Tiada Waranti</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proses">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Cara Ia Berfungsi</div>
+      <h2>3 Langkah Mudah Untuk Siling Baharu Anda</h2>
+      <p>Dapatkan sebut harga percuma untuk pemasangan, pembaikan, atau reka bentuk custom siling anda.</p>
+    </div>
+    <div class="steps reveal">
+      <div class="step"><div class="snum">01</div><h3>WhatsApp Kami</h3><p>Kami akan balas chat anda secepat mungkin.</p></div>
+      <div class="step"><div class="snum">02</div><h3>Free Konsultasi & Ukuran</h3><p>Kongsikan keperluan siling plaster rumah atau pejabat anda.</p></div>
+      <div class="step"><div class="snum">03</div><h3>Siap!</h3><p>Buat bayaran deposit, dan pasukan kami mula kerja.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="testimoni">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Apa Kata Pelanggan</div>
+      <h2>Dipercayai Ramai Pemilik Rumah di Kelantan</h2>
+    </div>
+    <div class="testi-grid reveal">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"Kerja kemas, pasukan datang tepat masa. Harga pun jauh lebih murah dari yang saya dapat quote sebelum ini."</p>
+        <div class="testi-who">Hafiz R. <span class="loc">Machang</span></div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"Reka bentuk L-box untuk ruang tamu memang cantik. Siap dalam masa 4 hari macam yang dijanjikan."</p>
+        <div class="testi-who">Nurul A. <span class="loc">Pasir Mas</span></div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"Repair siling bocor dan pasang downlight baru sekali gus. Servis mesra dan profesional."</p>
+        <div class="testi-who">Amirul S. <span class="loc">Kota Bharu</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="cta-band reveal">
+    <h2>Sedia Untuk Ubah Siling Rumah Anda?</h2>
+    <p>Hubungi kami hari ini untuk sebut harga percuma dan mulakan transformasi ruang anda bersama Amin Ceiling Machang.</p>
+    <div class="cta-actions">
+      <a href="https://wa.me/60189005222" class="btn red">WhatsApp Now</a>
+      <a href="tel:0189005222" class="btn ghost" style="color:#fff;border-color:#fff;">018-900 5222</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img class="foot-logo" src="assets/logo.jpg" alt="Amin Ceiling Machang">
+        <p style="max-width:32ch;">Pakar dalam rekabentuk & pemasangan siling plaster, siling PVC, wainscot dan renovasi untuk rumah dan pejabat di sekitar Machang, Kelantan.</p>
+      </div>
+      <div>
+        <h5>Pautan Pantas</h5>
+        <a href="#servis">Servis</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#harga">Harga</a>
+        <a href="#proses">Proses</a>
+        <a href="#testimoni">Testimoni</a>
+      </div>
+      <div>
+        <h5>Hubungi Kami</h5>
+        <a href="tel:0189005222">018-900 5222</a>
+        <a href="https://wa.me/60189005222">WhatsApp Kami</a>
+        <p>Machang, Kelantan</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Amin Ceiling Machang. Hak cipta terpelihara.</span>
+      <span>Servis Siling Plaster Machang, Pasir Mas, Kota Bharu</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/60189005222" class="wa-float" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.06L2 22l5.1-1.33A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.24.66-1.4 1.28-1.94 1.32-.5.05-1.1.07-1.78-.11-.4-.11-.93-.3-1.6-.6-2.8-1.2-4.62-4.02-4.76-4.2-.14-.19-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.26-.28.56-.34.75-.34h.53c.17 0 .4-.03.62.48.24.56.8 1.94.87 2.08.07.14.11.3.02.48-.09.19-.14.3-.28.46-.14.16-.29.36-.42.48-.14.14-.28.29-.12.56.16.28.7 1.16 1.51 1.87 1.04.93 1.91 1.22 2.19 1.36.28.14.44.12.6-.07.16-.19.68-.79.86-1.06.18-.28.36-.23.6-.14.24.09 1.55.73 1.82.86.27.14.45.2.51.32.07.12.07.65-.17 1.3z"/></svg>
+</a>
+
+<script>
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); } });
+  },{threshold:0.15});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+
+</body>
+</html>
